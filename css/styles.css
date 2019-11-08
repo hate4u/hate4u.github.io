@@ -1,0 +1,45 @@
+/*------------- General -------------*/
+
+html,
+body {
+    user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    height: 100%;
+}
+
+
+/*---------------- Home ----------------*/
+
+.background-image {
+    /* The image used */
+    background-image: url("../image/background.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+
+/*---------------- Category ----------------*/
+
+.Category {
+    background-color: rgba(1, 3, 6, 0.1);
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-copyright {
+    color: azure;
+}
+
+.footer-copyright:hover {
+    color: azure;
+}
